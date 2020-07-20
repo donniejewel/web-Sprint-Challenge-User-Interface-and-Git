@@ -76,10 +76,25 @@ p {
 
 .header{
     display: flex;
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.header img{
+    flex-grow:3 ;
 }
 .headerContent{
     display: flex;
-    justify-content:space-around;
+    /* justify-content:space-evenly; */
+}
+.topNav{
+    display: flex;
+    justify-content: space-around;
+}
+.topImage{
+    width:100%;
+    margin:3% 0;
 }
 
 .top-content {
@@ -90,7 +105,7 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .tcTextA,.tcTextB {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -131,7 +146,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box3{
+}
+.box3{
     width: 12.5%;
     height: 100px;
     background: cadetblue;
@@ -140,7 +156,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box4{
+}
+.box4{
     width: 12.5%;
     height: 100px;
     background: coral;
@@ -149,7 +166,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box5{
+}
+.box5{
     width: 12.5%;
     height: 100px;
     background: crimson;
@@ -158,7 +176,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box6{
+}
+.box6{
     width: 12.5%;
     height: 100px;
     background: forestgreen;
@@ -167,7 +186,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box7{
+}
+.box7{
     width: 12.5%;
     height: 100px;
     background: darkorchid;
@@ -176,7 +196,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box8{
+}
+.box8{
     width: 12.5%;
     height: 100px;
     background: hotpink;
@@ -185,7 +206,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box9{
+}
+.box9{
     width: 12.5%;
     height: 100px;
     background: indigo;
@@ -194,7 +216,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}.box10{
+}
+.box10{
     width: 12.5%;
     height: 100px;
     background: dodgerblue;
